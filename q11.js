@@ -11,3 +11,6 @@ const person2 = {
 };
 
 // ! Answer
+const nameNew =(({first,last})=>`name:${first} ${last}`);
+console.log(nameNew(person2));
+
