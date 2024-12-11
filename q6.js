@@ -7,8 +7,12 @@
 let user = { name: 'John', years: 30 };
 
 
-console.log(name); // John
-console.log(age); // 30
-console.log(isAdmin); // false
 
 // ! Answer
+let name1=user.name;
+let age1 =user.years;
+user.admin=false;
+let isAdmin=user.admin;
+console.log(name1); // John
+console.log(age1); // 30
+console.log(isAdmin); // false
