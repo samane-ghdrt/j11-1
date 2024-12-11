@@ -12,3 +12,7 @@ const myClasses = {
 //   Example Output: "Time to go to Programming class!"
 
 // ! Answer
+const goToSecondClass = ({ secondHour }) => {
+  return `Time to go to ${secondHour} class!`;
+};
+console.log(goToSecondClass(myClasses));

@@ -11,3 +11,5 @@ const object1 = {
 };
 
 // output => 'ali writes novels'
+const sentence = Object.keys(object1).join(' ');
+console.log(sentence); 
