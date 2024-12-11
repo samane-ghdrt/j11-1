@@ -9,3 +9,10 @@
 const ArrayOfNames = ['Tom', 'Margaret', 'Allison', 'David', 'Pierre'];
 
 // ! Answer
+const extractFirstThree = (array) => {
+    const [first, second, third, ...rest] = array;
+    return { first, second, third, rest };
+  };
+  const extracted = extractFirstThree(ArrayOfNames);
+  console.log(extracted);
+  

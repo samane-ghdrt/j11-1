@@ -18,5 +18,6 @@ const person = {
     legs: 'x',
   },
 };
+person.body.legs=numbers[2];
 
 // ! Answer
