@@ -11,4 +11,6 @@ const music = (first, second, third) => {
   console.log(`${first} is a ${second} ${third}`);
 };
 
-let array = [];
+let array = ["Imagine Dragons","Music","Band"];
+music( ...array );
+
